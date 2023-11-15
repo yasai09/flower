@@ -3,16 +3,43 @@ html {
   font-size: 100%;
 }
 body {
-  background-color: #fff;
   color: #3f434a;
   font-size: 15px;
-  max-width: 1366px;
+  font-family: "メイリオ", "Meiryo", sans-serif;
 }
 img {
   max-width: 100%;
 }
-/* header */
-.header-img {
-  width: 1366px;
-  height: 938px;
+li {
+  /* noneでliの先頭の点をとれる */
+  list-style: none;
 }
+/* header */
+#header {
+  text-align: center;
+  width: 100%;
+  height: 768px;
+  background-image: url("img/bg_top_pink.png");
+  object-fit: cover;
+}
+
+#header .header-title img {
+  margin-top: 20px;
+  padding-top: 18%;
+}
+#header .header-title p {
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  padding-top: 25px;
+  padding-right: 5px;
+}
+#header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-right: 5px;
+  margin-right: 10px;
+}
+/* ヘッダーいったん置いとく */
