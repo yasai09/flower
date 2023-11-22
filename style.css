@@ -453,6 +453,11 @@ footer p {
   }
   #plan2 .section-title {
     padding-top: 0;
+    width: 100%;
+    margin: auto;
+    padding-left: 17px;
+    padding-right: 17px;
+    text-align: center;
   }
   #plan2 .calendar-img {
     padding-top: 52px;
