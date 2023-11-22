@@ -67,22 +67,6 @@ header li {
   height: 540px;
 }
 
-/**
-TODO:
-
-## 課題
-テキストを absolute で浮かせてしまっているため、レスポンシブ対応した際に、予期せぬレイアウトになってしまっている。
-
-## 解決方法 - 概要
-テキストではなく。画像部分を absolute で浮かせる（ただし、absolute を適応すると、横幅・縦幅が親要素依存になってしまうため、画像からのサイズが取れなくなる）
-
-## 解決方法 - 詳細
-1. テキストから absolute を外す
-2. 画像に absolute を付ける
-3. 画像を absolute にすることで、今まで通りの横幅にならなくなるので、親要素（多分 li）に position: relative と width: 固定値px を付ける
-4. 画像は親の横幅・縦幅いっぱいに広がってほしいので、height: 100%, width: 100%  を付ける
-
-*/
 #service-list .service-box {
   display: flex;
 }
